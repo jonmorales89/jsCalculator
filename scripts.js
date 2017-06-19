@@ -80,11 +80,11 @@ function handleEquals(){
     } else if (result !== null){
         inputs[0] = result;
     }
-    displayInputs(doMath);
+    displayInputs(doMath());
 }
 function handleClearKeys(){
     var keypress = $(this).html();
-    if(keypress==='CE'){
+    if(keypress==='C'){
         inputs = [''];
         i = 0;
         result = null;
@@ -119,7 +119,7 @@ function doMath(){
             result = num1 * num2;
             break;
         case undefined:
-            result = 0;
+            result = inputs[0];
             break;
     }
     return result;
