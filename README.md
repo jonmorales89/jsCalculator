@@ -5,5 +5,5 @@ One of the first projects completed while I was enrolled at LearningFuze Web Dev
 
 The design was achieved by following Google's Material Design
 
-Live Demo [Here](http://www.jonathanmorales.io/apps/jsCalculator "jsCalculator")
+Live Demo [Here](http://jonathanmorales.io/apps/jsCalculator/ "jsCalculator")
 
