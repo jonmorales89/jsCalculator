@@ -86,3 +86,68 @@ button {
     color:white;
     font-size:2.5em;
 }
+@media (max-width: 769px) {
+    #inputPad, #display {
+        margin-top: 0;
+        width: 70%;
+    }
+    #inputPad {
+        margin-bottom: 0;
+        height: 72vh;
+    }
+    #display{
+        height: 26vh;
+    }
+    .displayResults{
+        top: 40%;
+        right: 5%;
+        margin: 0;
+        font-size: 3em;
+    }
+    #equalSign {
+        right: 25px;
+        width: 12vw;
+        height: 10vh;
+        top: 80%;
+    }
+    .clear, .clearAll {
+        height: 13vh;
+    }
+    .keys {
+        width: 32.338%;
+        height: 15vh;
+    }
+    .zero {
+        width: 66.6%;
+    }
+    .operatorKeys{
+        height: 14.7vh;
+    }
+    #equalSign, .clear, .clearAll, .keys, .operatorKeys {
+        font-size: 2em;
+    }
+}
+
+@media (max-width: 650px) {
+    #inputPad, #display {
+        width: 90%;
+    }
+    #equalSign {
+        width: 15vw;
+        height: 10vh;
+        top: 83%;
+    }
+}
+ @media (max-width: 500px){
+    #inputPad, #display {
+        width: 100%;
+    }
+ }
+ @media (max-width: 389px) {
+    #equalSign, .displayResults, .clear, .clearAll, .keys, .operatorKeys {
+        font-size: 1.5em;
+    }
+    .operatorKeys {
+        width: 24.5%;
+    }
+ }
